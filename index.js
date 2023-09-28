@@ -14,5 +14,6 @@ function reset(){
   btn.classList.remove('d-none')
   btn2.classList.toggle('d-none')
 }
+
 btn.addEventListener('click', show)
 btn2.addEventListener('click', reset)
